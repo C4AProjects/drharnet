@@ -1,5 +1,5 @@
 /*
-Theme Name: Dr Harnet
+Theme Name: Dr Harnet (carousel)
 Author: Coders4Africa
 Author URI: http://coders4africa.com
 Description: custtom Theme for www.drharnet.com !
@@ -576,7 +576,7 @@ text-decoration: none;
 
 .bmenu{
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:10px;
     padding: 0px;
     position: relative;
 	 display: block;
@@ -626,7 +626,7 @@ text-decoration: none;
 }
 #feature li{
     display:inline-block;
- padding: 5px 20px 5px 20px;
+ padding: 5px 10px 0px 5px;
 }
 /* NewsLetter */
 #newsletterbox {
@@ -684,7 +684,8 @@ margin-left:20px;
 
 #content {
 position:relative;
-margin-top:100px;
+margin-top:80px;
+
 }
 
 #content .row > div {

@@ -6,8 +6,7 @@ require_once('wp_bootstrap_navwalker.php');
 add_action( 'wp_enqueue_scripts', 'drharnet_scripts' );
 function drharnet_scripts() {
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
-	wp_enqueue_style( 'carousel',  get_template_directory_uri() . '/css/carousel.css');
-	
+		
 	wp_enqueue_script( 'bootstap', get_template_directory_uri() . '/js/bootstrap.js' );
 	  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/query-1.10.2.js' );
 wp_enqueue_script( 'newsletter', get_template_directory_uri() . '/js/newsletter.js' );

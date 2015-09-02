@@ -12,9 +12,64 @@
  */
 
 get_header(); ?>
+  <?php if ( is_front_page() ) :
+  ?>
   
-  
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        
+        <div class="item active">
+          <img src="<?php echo  get_template_directory_uri().'/images/africa2.jpg'; ?>" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Africa market entry &amp; Expansion strategy expertise </h1>
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+         <img src="<?php echo  get_template_directory_uri().'/images/trade.jpg'; ?>" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Business Trade mission</h1>
+             
+            </div>
+          </div>
+        </div>
+       
+        <div class="item">
+         <img src="<?php echo  get_template_directory_uri().'/images/class.jpg'; ?>" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Business Executive Training</h1>
+                        
+          </div>
+        </div>
+      </div>
+      
+       <div class="item">
+         <img src="<?php echo  get_template_directory_uri().'/images/speaking.jpg'; ?>" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Speaking</h1>
+             
+            </div>
+          </div>
+        </div>
+        </div>
 
+    </div><!-- /.carousel -->
+<?php
+   endif; ?>
     <section id="content">
         <div class="container">
            <div class="box">
@@ -30,7 +85,7 @@ get_header(); ?>
                 
                          <?php if(have_posts()) : ?>
 						 <?php while(have_posts()) :the_post()?>
-						  <h1><?php the_title(); ?></h1>
+						  <h1 ><?php the_title(); ?></h1>
                           <div id="ctexte">
 						   <?php the_content(); ?>
                            </div>
