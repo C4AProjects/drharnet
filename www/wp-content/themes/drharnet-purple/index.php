@@ -20,7 +20,7 @@ get_header(); ?>
                   
                          <div class="col-md-4">
                        
-				<img src="<?php echo  get_template_directory_uri().'/images/author.png'; ?>" alt="Dr harnet" class="img-responsive" />
+				<img src="<?php echo  get_template_directory_uri().'/images/harnet.png'; ?>" alt="Dr harnet" class="img-responsive" />
               
                          </div>
                 <div class="col-md-8">
@@ -52,7 +52,7 @@ get_header(); ?>
          <section id="newsletterbox">
         <div class="container">
               
-<form id="nform" class="newsletter-form"  action="http://127.0.0.1/harnet2/wp-content/plugins/newsletter/do/subscribe.php">
+<form id="nform" class="newsletter-form"  action="http://drharnet-dev.c4asolution.com/wp-content/plugins/newsletter/do/subscribe.php">
 <div class="form-group">
 <label> Get my free tips &amp; updates </label>
 </div>
