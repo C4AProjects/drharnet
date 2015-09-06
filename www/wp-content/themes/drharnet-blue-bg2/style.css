@@ -1,5 +1,5 @@
 /*
-Theme Name: Dr Harnet (background fixed)
+Theme Name: Dr Harnet (background wide)
 Author: Coders4Africa
 Author URI: http://coders4africa.com
 Description: custtom Theme for www.drharnet.com !
@@ -423,7 +423,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 /*===================================== Font AWESOME Ends here=============================================================== */
 /* MAIN CSS Start here */
 body {
-	background:#FFF;
+	background:#4C84CE;
 	color: #6591B1;
 	font-size: 15px;
 	 background-image:url(images/fonds/metropol1.jpg);
@@ -581,8 +581,7 @@ margin-top:100px;
 #page{
 		background-image:url(images/text_bg.png);
 		padding:10px 20px 15px 20px;
-		height:600px;
-		overflow:auto;
+		height:auto;
 }
 #page h1{
 		text-align:left;
