@@ -426,8 +426,9 @@ body {
 	background:#FFF;
 	color: #6591B1;
 	font-size: 15px;
-	 background-image:url(images/fonds/metropol1.jpg);
+	 background-image:url(images/fonds/businessinafrica2.jpg);
 	 background-repeat:no-repeat;
+	  background-attachment:fixed;
 }
 h1,
 h2,

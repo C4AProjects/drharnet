@@ -428,6 +428,7 @@ body {
 	font-size: 15px;
 	 background-image:url(images/fonds/metropol1.jpg);
 	 background-repeat:no-repeat;
+	 background-attachment:fixed;
 }
 h1,
 h2,
