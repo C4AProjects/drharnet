@@ -858,11 +858,9 @@ font-size: 30px;
 .h2, h2, { 
 font-size: 15px;
 }
-body {
-		 background-image:none;
-	 }
+
 #page{
-		background-image:none;
+	    background-image:url(images/text_bg.png);
 		padding:10px 20px 15px 20px;
 		height:auto;
 		
