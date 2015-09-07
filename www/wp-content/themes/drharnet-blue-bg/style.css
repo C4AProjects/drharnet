@@ -480,16 +480,6 @@ a:focus {
   outline: none;
 }
 /* Nav customization */
-.ulbar li {
-	  display: inline-block;
-	  padding: 0px 5px 0px 5px;
-	  border-right: 1px solid #E7E7E7;
-	  margin-bottom:0px;
-
-}
-.ulbar li:last-child {
-	  border-right: 0px;
-}
 
 .navbar-default {
    background: inherit;
@@ -643,7 +633,7 @@ margin-top:100px;
    margin-bottom:0;
   position:relative;
   display: block;
-   background-color:#FFF;
+  background-color:#FFF;
 }
 #feature li{
     display:inline-block;
@@ -784,6 +774,19 @@ margin-left:20px;
 #footer a:hover {
   color: #BB0000;
 }
+#footer .ulbar {
+	padding-left:0px;
+}
+#footer .ulbar li {
+	  display: inline-block;
+	  padding: 0px 5px 0px 5px;
+	  border-right: 1px solid #E7E7E7;
+	  margin-bottom:0px;
+
+}
+#footer .ulbar li:last-child {
+	  border-right: 0px;
+}
 ul.social {
   list-style: none;
   margin: 10px 0 0;
@@ -872,6 +875,10 @@ font-size: 15px;
    	display:block;
 	
 	width:auto;
+}
+#feature {
+  
+  padding-left: 0px;
 }
 #feature li{
     display:block;

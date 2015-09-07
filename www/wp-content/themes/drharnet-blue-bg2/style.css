@@ -757,7 +757,6 @@ margin-left:20px;
   margin-bottom: 100px;
   }
   
- 
 
 #footer {
 
@@ -876,6 +875,10 @@ font-size: 15px;
 	
 	width:auto;
 }
+#feature {
+  
+  padding-left: 0px;
+}
 #feature li{
     display:block;
     text-align: center;
@@ -915,6 +918,9 @@ font-size: 15px;
 line-height: 1.33;
 padding: 5px 5px 5px 5px;
 }
+
+
+    
 }
 
 @media (max-width:480px) {
