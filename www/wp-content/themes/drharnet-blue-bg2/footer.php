@@ -1,7 +1,7 @@
 
     <footer id="footer">
-        <div class="container">
-            <div class="row">
+       
+            
                 <div>
                    <ul class="ulbar">
                     <li><a href="#" title="Terms & Conditions">Terms & Conditions of use </a></li>
@@ -19,8 +19,8 @@
                   </ul>
                 </div>
                
-            </div>
-        </div>
+          
+        
     </footer><!--/#footer-->
  
   </body>
