@@ -429,6 +429,7 @@ body {
 	 background-image:url(images/fonds/businessinafrica2.jpg);
 	 background-repeat:no-repeat;
 	  background-attachment:fixed;
+	   background-size:cover;
 }
 h1,
 h2,
@@ -856,7 +857,7 @@ ul.social > li > a i {
 }
 
 
-@media(max-width:760px) {
+@media(max-width:1186) {
 .h1, h1 { 
 font-size: 30px;
 }
