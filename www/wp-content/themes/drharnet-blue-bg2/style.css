@@ -1014,7 +1014,7 @@ font-family: Verdana;
 }
 }
 
-@media (max-width:324px) {
+@media (max-width:320px) {
 
 
 .navbar-default .navbar-brand {
@@ -1029,14 +1029,14 @@ font-family: Verdana;
 }
 #feature li img{
    
-    width:160px;
+    width:150px;
  
 }
 
 }
 
 
-@media (max-width:244px) {
+@media (max-width:240px) {
 body {
 	
 	font-size: 12px;
@@ -1073,12 +1073,13 @@ font-size: 20px;
 font-size: 15px;
 }
 .bmenu li{
-    font-size: 12px;
+	padding-top:5px;
+    font-size: 10px;
 	max-width:200px;	
 }
 
 #feature li img{
-    width:120px;
+    width:110px;
  }
 
 .newsletter-form  label { 
