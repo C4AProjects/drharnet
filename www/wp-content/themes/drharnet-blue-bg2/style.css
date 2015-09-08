@@ -1016,6 +1016,17 @@ font-family: Verdana;
 
 @media (max-width:320px) {
 
+
+.navbar-default .navbar-brand {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top:5px;
+  width: 220px;
+  height: 73px;
+  background-image:url(images/drharnet-m.png);
+  background-repeat: no-repeat;
+
+}
 #feature li img{
    
     width:160px;
@@ -1031,6 +1042,36 @@ body {
 	font-size: 12px;
 	 
 }
+
+.navbar-default .navbar-brand {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top:5px;
+  width: 180px;
+  height: 60px;
+  background-image:url(images/drharnet-s.png);
+  background-repeat: no-repeat;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica condensed Black","Myriad Pro", Arial, Verdana,sans-serif;
+  text-transform:uppercase;
+   font-weight: 100px;
+   margin:5px;
+}
+
+.h1, h1 { 
+font-size: 30px;
+}
+.h2, h2, { 
+font-size: 20px;
+}
 .bmenu li{
     font-size: 14px;
 	max-width:200px;	
@@ -1043,8 +1084,8 @@ body {
 .newsletter-form  label { 
 font-family: sans-serif;
 color:#FFF;
-font-size: 15px;
-line-height: 15px;
+font-size: 13px;
+line-height: 13px;
 }
 
 .newsletter-form input[type='email']{
