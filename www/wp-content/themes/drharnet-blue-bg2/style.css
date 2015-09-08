@@ -973,6 +973,16 @@ margin-right:auto;
 }
 
 @media (max-width:480px) {
+	.navbar-default .navbar-brand {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top:5px;
+  width: 240px;
+  height: 60px;
+  background-image:url(images/drharnet-m.png);
+  background-repeat: no-repeat;
+
+}
 .bmenu{
 		 max-width:450px;
 		 margin-right: auto;
@@ -992,7 +1002,7 @@ margin-right:auto;
 }
 #feature li img{
    
-    width:250px;
+    width:200px;
  
 }
 .newsletter-form  label { 
@@ -1015,43 +1025,33 @@ font-family: Verdana;
 }
 
 @media (max-width:320px) {
-
-
-.navbar-default .navbar-brand {
-  margin-right: 10px;
-  margin-left: 5px;
-  margin-top:5px;
-  width: 220px;
-  height: 73px;
-  background-image:url(images/drharnet-m.png);
-  background-repeat: no-repeat;
-
-}
-#feature li img{
-   
-    width:150px;
- 
-}
-
-}
-
-
-@media (max-width:240px) {
 body {
 	
 	font-size: 12px;
 	 
 }
-
-.navbar-default .navbar-brand {
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-top:5px;
-  width: 180px;
+#header {
+  
   height: 60px;
+  margin-bottom:10px;
+  paddin-bottom:10px;
+}
+.navbar-default .navbar-brand {
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top:2px;
+  width: 170px;
+  height: 50px;
   background-image:url(images/drharnet-s.png);
   background-repeat: no-repeat;
 
+}
+
+blockquote {
+    padding: 5px 5px;
+    margin: 0 0 20px;
+    font-size: 12.5px;
+    border-left: 3px solid #eee;
 }
 
 h1,
