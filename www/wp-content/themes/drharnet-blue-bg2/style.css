@@ -1014,7 +1014,7 @@ font-family: Verdana;
 }
 }
 
-@media (max-width:320px) {
+@media (max-width:324px) {
 
 
 .navbar-default .navbar-brand {
@@ -1036,7 +1036,7 @@ font-family: Verdana;
 }
 
 
-@media (max-width:240px) {
+@media (max-width:244px) {
 body {
 	
 	font-size: 12px;
@@ -1062,18 +1062,18 @@ h5,
 h6 {
   font-family: "Helvetica condensed Black","Myriad Pro", Arial, Verdana,sans-serif;
   text-transform:uppercase;
-   font-weight: 100px;
+   font-weight: 70px;
    margin:5px;
 }
 
 .h1, h1 { 
-font-size: 30px;
-}
-.h2, h2, { 
 font-size: 20px;
 }
+.h2, h2, { 
+font-size: 15px;
+}
 .bmenu li{
-    font-size: 14px;
+    font-size: 12px;
 	max-width:200px;	
 }
 
