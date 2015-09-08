@@ -50,7 +50,7 @@ get_header(); ?>
          </section><!--/#content-->
       
          <section id="newsletterbox">
-        <div class="container">
+       
               
 <form id="nform" class="newsletter-form"  action="http://drharnet-dev.c4asolution.com/wp-content/plugins/newsletter/do/subscribe.php">
 <div class="form-group">
@@ -83,7 +83,7 @@ get_header(); ?>
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-          </div>
+          
  
  </section>
    

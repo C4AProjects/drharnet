@@ -658,7 +658,6 @@ margin-right: 0px;
 padding-bottom: 5px;
 padding-top: 5px;
 width: auto;
-display:inline-block;
 }
 .newsletter-form .form-group { 
 display: inline-block;
@@ -889,15 +888,19 @@ font-size: 15px;
 #feature li img{
    
     width:350px;
-
- 
+}
+.newsletter-form .form-group { 
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5px 
 }
 .newsletter-form  label { 
 font-family: sans-serif;
 color:#FFF;
-font-size: 20px;
+font-size: 30px;
 line-height: 30px;
-margin-left:10px;
+
 }
 
 .newsletter-form input[type='email']{
@@ -908,21 +911,58 @@ padding: 3px;
 font-weight: 60;
 font-size: 15px;
 font-family: Verdana;
-margin-left:5px;
+
 }
+
 .newsletter-form .btn {
-	
-    font-weight: 100;
-  	width:100px;
-	margin-left:5px;
-	max-height:30px;
+font-weight: 100;
+width:100px;
+max-height:30px;
 font-size: 15px;
 line-height: 1.33;
 padding: 5px 5px 5px 5px;
 }
 
-
     
+}
+
+@media(max-width:979px) {
+
+.newsletter-form .form-group { 
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5px;
+text-align:center;
+}
+
+.newsletter-form  label { 
+font-family: sans-serif;
+color:#FFF;
+font-size: 30px;
+line-height: 30px;
+
+}
+
+.newsletter-form input[type='email']{
+width: 400px;
+max-height: 50px;
+border: 1px  thin #FFF;
+font-weight: 60;
+font-size: 15px;
+font-family: Verdana;
+
+}
+
+.newsletter-form .btn {
+font-weight: 100;
+width:100px;
+max-height:30px;
+font-size: 15px;
+line-height: 1.33;
+padding: 5px 5px 5px 5px;
+}
+
 }
 
 @media (max-width:480px) {
@@ -953,7 +993,6 @@ font-family: sans-serif;
 color:#FFF;
 font-size: 20px;
 line-height: 20px;
-margin-left:10px;
 }
 
 .newsletter-form input[type='email']{
@@ -965,6 +1004,42 @@ size:50px;
 font-weight: 40;
 font-size: 15px;
 font-family: Verdana;
-margin-left:10px;
+}
+}
+
+@media (max-width:320px) {
+
+#feature li img{
+   
+    width:200px;
+ 
+}
+
+}
+
+
+@media (max-width:240px) {
+
+#feature li img{
+   
+    width:180px;
+ 
+}
+.newsletter-form  label { 
+font-family: sans-serif;
+color:#FFF;
+font-size: 15px;
+line-height: 15px;
+}
+
+.newsletter-form input[type='email']{
+width:160px;
+max-height: 40px;
+border: 1px  thin #FFF;
+padding: 3px;
+
+font-weight: 20;
+font-size: 15px;
+font-family: Verdana;
 }
 }
