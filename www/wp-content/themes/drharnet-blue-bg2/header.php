@@ -16,8 +16,8 @@
     <meta name="keywords"  content="DR HARNET;Strategist; Author; Speaker; Africa; Afrique; Africa market; Business; Africa market extension; Market entry; Market; Speaking; ">
     <meta name="author" content="Coders4Africa">
      <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> 
-  <title><?php wp_title( '|', true, 'right' ); ?>
-  
+  <title>
+  DR HARNET ::Strategist ::Author ::Speaker;
   </title>
        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
        
